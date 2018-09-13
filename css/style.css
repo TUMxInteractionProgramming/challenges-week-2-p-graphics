@@ -1,0 +1,121 @@
+
+/* #2 #colorful #palette is:
+    * Background: #F5F5F5 (GREY 100)
+    * Primary Text: black
+
+    * Primary color: #3F51B5 (INDIGO)
+    * Primary color_text : white
+    * Accent color: #CDDC39 (LIME)
+    * Accent color_text: black
+    */
+
+/*global styles */
+* {
+    margin: 0;
+    padding: 0;
+    /* #2 #font #faces */
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+}
+button {
+    /* #2 #colourful #plusfive */
+    background-color: #CDDC39;
+    color: black;
+    /* #2 #font capital #letters */
+    text-transform: uppercase;
+}
+
+
+/* #2 #colourful #app-bar */
+h1 {
+    background-color: #3F51B5;
+    color: white;
+}
+
+h1 strong {
+    text-transform: uppercase; 
+}
+
+/*channels list*/
+ul {
+    background-color: white;
+    list-style: none;
+}
+
+div ul li.current-channel {
+    border-left: 4px solid #3F51B5;
+    color: #3F51B5;
+}
+
+div ul li {
+  padding: 16px;
+  line-height: 16px;
+  box-sizing: border-box;
+}
+
+div ul li img {
+   vertical-align: middle;
+  }
+
+#button {
+    /*the class of button helping to style the button area.*/
+    background-color: white;  
+}
+
+
+/*styles Tab bar*/
+#button button {
+    text-transform: uppercase;
+    background-color: white;
+    border: none;
+    font-size: 14px;
+    width: 33%;
+    height: 72px;
+    padding: 16px;
+}
+
+#button img  {
+  display: block;
+  margin: auto;
+  padding-bottom: 4px;
+}
+
+#button button.selected{
+    border-bottom: 4px solid #3F51B5;
+    color: #3F51B5;
+}
+
+
+/*styles for Messages chat area*/
+.messages {
+    width: 80%;
+    margin-left: 2.5%;
+}
+.messages h3 {
+    font-size: medium;
+}
+
+.messages p{
+    background-color: white;
+    padding: 16px;
+}
+
+.messages strong {
+    text-transform: uppercase;
+}
+
+.messages em {
+    font-size: larger;
+    font-style: normal;
+}
+
+.messages a {
+    color: black;
+}
+
+.own {
+    margin-left: 17.5%;
+}
